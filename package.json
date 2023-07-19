@@ -1,0 +1,22 @@
+{
+  "name": "pythonelectron",
+  "version": "1.0.0",
+  "description": "test gui python with electron.js",
+  "main": "src/App.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && electron dist/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "basyair7",
+  "license": "ISC",
+  "dependencies": {
+    "@types/electron": "^1.6.10",
+    "python-shell": "^5.0.0"
+  },
+  "devDependencies": {
+    "electron": "^25.3.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
